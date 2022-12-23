@@ -1,0 +1,63 @@
+.background {
+  object-fit: cover;
+  z-index: -1;
+}
+.Mainback {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+.Bacground {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 90%;
+  z-index: 5;
+}
+.Titel {
+  position: relative;
+  z-index: 2;
+  color: #ffff;
+}
+.MainForm {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  border: 0.8px solid white;
+}
+.Form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.Form input {
+  background-color: transparent;
+  border: none;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: rgba(239, 239, 239, 0.667);
+}
+.Form input:focus {
+  outline: none;
+}
+.Form button {
+  background-color: transparent;
+  color: rgba(205, 205, 205, 0.667);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  border: none;
+}
